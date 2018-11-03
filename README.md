@@ -83,12 +83,6 @@ http://localhost:8080/actuator/filters
    ],
    "route":[
       {
-         "class":"com.heowc.SpringCloudZuulMainApplication$CustomZuulFilter",
-         "order":99,
-         "disabled":false,
-         "static":true
-      },
-      {
          "class":"org.springframework.cloud.netflix.zuul.filters.route.SimpleHostRoutingFilter",
          "order":100,
          "disabled":false,
